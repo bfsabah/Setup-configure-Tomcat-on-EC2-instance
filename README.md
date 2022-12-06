@@ -27,7 +27,13 @@
 
 7- We can test TOMCAT: Copy your public IP address and paste it into your browser http://{public IP}:8080 #tomcat screen shows.
 
+![image](https://user-images.githubusercontent.com/113843658/205961454-d4a8a9b3-c21a-48fb-b2c7-1b74231aac19.png)
+
+
 8- When we click "Manager App" Access Denied page is seen. To fix it we will find context.xml files and fix them.
+
+![image](https://user-images.githubusercontent.com/113843658/205961577-c9ab18c0-456d-4d34-b0ee-05adc01d58b9.png)
+
 
     :   &&  find / -name context.xml {in webapps folders we have 2 context.xml files}
 
@@ -38,6 +44,9 @@
         && ./startup.sh
 
 9- We refresh the page, now it asks for user credentials.
+
+![image](https://user-images.githubusercontent.com/113843658/205961622-6d886fff-c367-4595-a982-d5c6099823b0.png)
+
 
 10 - We create a TOMCAT user:   && /opt/apache-tomcat-10.0.27/conf
 
