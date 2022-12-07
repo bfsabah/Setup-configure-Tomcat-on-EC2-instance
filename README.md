@@ -1,5 +1,7 @@
 # Setup-configure-Tomcat-on-EC2-instance
 
+![image](https://user-images.githubusercontent.com/113843658/206096152-51170568-bfbf-439a-b134-2902263cbc68.png)
+
 1- Create a RED HAT EC2 instance with standard configuration.
 
 2- Connect to EC2 instance and switch to ROOT user : && sudo su
